@@ -8,6 +8,8 @@ import {
 
 
 
+  //All this should be a separate CSS file for when you have more elements. you can import the CSS file like you have above.
+  //Later when you have more code, the code will be neater if this was separate. For now it's fine.  
 
   const formItemLayout = {
   labelCol: {
@@ -73,6 +75,18 @@ const { Option } = Select;
 
 class Regform extends React.Component 
 {
+
+  //you need to have a constructor here to store the states of the inputs. 
+  /*
+  constructor(props){
+    super(props);
+    state={
+      name: "something here ",
+      //There needs to be a variable for each input blank. 
+
+    }
+  }
+  */ //This is where the user profile will be in terms of JSON. 
 
   render (){
   
